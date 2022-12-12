@@ -33,8 +33,8 @@ def get_df(
         path_to_data, 
         delimiter=sep, 
         encoding=encoding, 
-        header=None, 
-        names=column_names,
+        #header=None, 
+        #names=column_names,
     )
     logging.info(f"The input data frame {path_to_data} of size {df.shape} is read.")
     return df
